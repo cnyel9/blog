@@ -2,5 +2,11 @@
   "name": "frontend",
   "version": "1.0.0",
   "type": "module",
-  "packageManager": "bun"
+  "packageManager": "bun",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  }
 }
