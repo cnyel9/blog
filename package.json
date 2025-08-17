@@ -1,11 +1,10 @@
 {
-  "name": "teknisi-komputer-blog",
+  "name": "leap-app",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "cd frontend && npm run dev",
-    "build": "cd frontend && npm install && npm run build",
-    "preview": "cd frontend && npm run preview"
-  },
-  "devDependencies": {}
+  "packageManager": "bun",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
 }
